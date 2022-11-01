@@ -1,5 +1,8 @@
-_lastname = '菅井'
-_firstname = '直樹'
-_age = 29
+lastname = '菅井'
+firstname = '直樹'
+name = lastname + firstname
+finish_name = "です。"
+finish_age ="歳です。"
+age = 29
 
-puts "#{_lastname}#{_firstname}です。#{_age}歳です。" 
+puts name + finish_name + age.to_s + finish_age
